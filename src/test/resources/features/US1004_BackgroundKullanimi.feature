@@ -4,14 +4,14 @@ Feature: US1005 Kullanici bastaki ortak adimlar icin Background kullanir
 
   Background: Tum scenario'lar icin ortak ilk adim
     Given kullanici amazon anasayfaya gider
-
+@p1
   Scenario: TC03 Kullanici Parametreli method ile Nutella aratir
 
     Then amazon arama kutusuna "Nutella" yazip aratir
     And arama sonuclarinin "Nutella" icerdigini test eder
     And sayfayi kapatir
 
-
+@p2
   Scenario: TC04 Kullanici Parametreli method ile Java aratir
 
     Then amazon arama kutusuna "Java" yazip aratir
