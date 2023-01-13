@@ -13,7 +13,7 @@ public class QualitydemyPage {
     }
 
     @FindBy(xpath = "//a[text()='Accept']")
-    public WebElement cookie;
+    public  WebElement cookie;
 
     @FindBy(xpath = "//*[text()='Log in']")
     public WebElement ilkLoginLinki;
